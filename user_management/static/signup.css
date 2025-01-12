@@ -1,0 +1,97 @@
+/* signup.css */
+
+body {
+    background-color: #001f3f; /* Dark blue background */
+    color: #f0f8ff; /* Light blue text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: #003366; /* Slightly lighter blue for the card background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #b0e0e6; /* Light blue for the heading */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    color: #d0e6f3; /* Slightly lighter blue for labels */
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    background-color: #004080; /* Medium blue for input fields */
+    border: 1px solid #003366; /* Darker blue for borders */
+    border-radius: 4px;
+    color: #f0f8ff; /* Light blue text inside input fields */
+}
+
+.form-control::placeholder {
+    color: #c0d6f9; /* Placeholder text color */
+}
+
+.text-danger {
+    color: #ff4d4d; /* Red for error messages */
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+button {
+    background-color: #004080; /* Medium blue for the button */
+    color: #f0f8ff; /* Light blue text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003366; /* Darker blue on hover */
+}
+
+a.btn-default {
+    background-color: #00509e; /* Slightly lighter blue for the link button */
+    color: #f0f8ff; /* Light blue text */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+a.btn-default:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}
